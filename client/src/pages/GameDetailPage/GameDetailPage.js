@@ -24,7 +24,7 @@ function GameDetailPage() {
       <Container className="main-info my-5">
         <h1>{game.title}</h1>
 
-        <Row className="main-info mb-5">
+        <Row className="main-info">
           <Col sm={8}>
             <YoutubeEmbed />
           </Col>
